@@ -1,0 +1,16 @@
+name: BankCard
+main: RhaxDev\Bank\Main
+version: 1
+api: 4.0.0
+author: RhaxDev
+permissions:
+  cmd.bank:
+    default: true
+    description: Allows to Use Bank Command
+  bank.givespawn:
+    default: op
+    description: Allows To Give Bank Spawn Egg
+commands:
+  bank:
+    description: ""
+    permission: cmd.bank
